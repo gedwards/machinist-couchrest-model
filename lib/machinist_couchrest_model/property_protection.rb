@@ -7,15 +7,15 @@ module CouchRest
 
       # override attribute protection for Machinist, making all attributes available for mass assignment
 
-      module ClassMethods
-        def accessible_properties
-          props = properties
-        end
+      # module ClassMethods
+      #   def accessible_properties
+      #     props = properties
+      #   end
 
-        def protected_properties
-          []
-        end
-      end
+      #   def protected_properties
+      #     []
+      #   end
+      # end
 
     end
   end
