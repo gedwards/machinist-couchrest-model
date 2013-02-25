@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
     "spec/spec.opts",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/pezra/machinist-couchrest-model"
+  s.homepage = "https://github.com/gedwards/machinist-couchrest-model"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.11"
   s.summary = "Machinist support for CouchRest Model"
